@@ -1,4 +1,4 @@
-fetch("/video/list-kategori.json")
+fetch("/modul/list-kategori.json")
   .then((res) => res.json())
   .then((data) => {
     const wrapper = document.getElementById("mix-faq");
